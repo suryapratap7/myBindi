@@ -1,0 +1,77 @@
+.navbar-brand{
+    font-size: 1.8em;
+}
+#brandText{
+    color:#00008B;
+}
+.btn-primary{
+    background-color: #00008B;
+    border: 1px solid #00008B;
+}
+#topContainer{
+    /*background-image:url("images/logo.jpeg");*/
+    height:690px;
+    width: 100%;
+    background-size: cover;
+}
+#topRow{
+    margin-top: 100px;
+    text-align: center;
+}
+#topRow h1{
+    font-size: 300%;
+    color: #919191;
+}
+.lead{
+    font-size: 150%;
+    color: #919191;
+}
+p{
+    color: #919191;
+}
+.asterisk_input:after {
+    content:" *";
+    color: #e32;
+    position:relative;
+    margin: -30px -20px 0px -20px;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+    float: right;
+}
+.formWidth{
+    width: 320px;
+}
+.formMargin{
+    margin-left: 40px;
+}
+#boldText{
+    font-size: 120%;
+    color:#00008B;
+    font-weight: bold;
+}
+#form{
+    margin-top: 40px;
+}
+.floatText{
+    float:left;
+}
+.center{
+    text-align: center;
+}
+.title{
+    margin-top: 100px;
+    font-size: 300%;
+}
+.marginTop{
+    margin-top: 20px;
+}
+.marginRight{
+    margin-right: 10px;;
+}
+#footer{
+    background-color:whitesmoke;
+    width: 100%;
+}
+.appstoreimage{
+    width:250px;
+}
