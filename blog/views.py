@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .models import Programs
 
-def post_list(request):
-    return render(request, 'blog/post_list.html', {})
+def page_list(request):
+    programs = Programs.objects.all()
+    return render(request, 'blog/index.html', {'programs': programs})

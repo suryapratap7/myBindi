@@ -17,6 +17,13 @@ class Programs(models.Model):
     convenor = models.CharField(max_length=100)
     convenor_email = models.EmailField()
 
+    def publish(self):
+        self.published_date = timezone.now()
+        self.save()
+
+    def __str__(self):
+        return self.title
+
 class Spec_Major(models.Model):
     program = models.ForeignKey(Programs)
     major_id = models.CharField(max_length=10)
